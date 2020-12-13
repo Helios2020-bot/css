@@ -1,0 +1,9 @@
+.x{
+    
+    border: 5px ;
+}
+input {
+    border: 2px solid black;
+    border-radius: 4px;
+    display: inline;
+  }

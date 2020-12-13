@@ -1,0 +1,18 @@
+table{
+    border:1px solid black;
+    /* border-collapse: collapse; */
+    border-spacing: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+th{
+    background-color: khaki;
+}
+td{
+    /* background-color: grey; */
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
