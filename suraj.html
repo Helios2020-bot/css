@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('https://www.sciencemag.org/sites/default/files/styles/article_main_image_-_1280w__no_aspect_/public/butterfly_16x9_0.jpg?itok=xRO5C2eC');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #wrapper {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        #banner {
+            margin: 0 auto;
+        }
+
+        input[type="search"] {
+            float: right;
+            margin-top: 15px;
+        }
+
+        nav {
+            display: block;
+            background-color: lightyellow;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        nav>a {
+            text-decoration: none;
+            background-color: #ddd;
+            border: 1px solid #000;
+            color: navy;
+            padding: 10px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px 5px;
+
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            align-content: flex-start;
+            position: relative; 
+        }
+
+        .item1 {
+            order: 1;
+        }
+
+        .item2 {
+            order: 2;
+        }
+
+        .item3 {
+            order: 3;
+        }
+
+        .black {
+            padding: 10px 15px;
+            background-color: #444;
+        }
+
+        aside {
+            display: block;
+            background-color: rgb(182, 112, 55);
+            margin: 0;
+            height: 100%;
+            width: 20%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        aside>a {
+            width: 100%;
+            text-decoration: none;
+            color: navy;
+            padding: 5px;
+            display: inline-block;
+            margin: 6px 2px;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div><img src="https://via.placeholder.com/911x100" id="banner"></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Design</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <input type="search" name="search">
+        </nav>
+        <div class="container">
+            <img src="https://via.placeholder.com/303x303" class="item1">
+            <iframe width="303" height="303" class="item2" src="https://www.youtube-nocookie.com/embed/25Bm-zZRqmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img src="https://via.placeholder.com/303x303" class="item3">
+        </div>
+        <div class="container">
+            <div class="item1 black">
+                <img src="https://via.placeholder.com/700x500">
+            </div>
+            <aside class="item2">
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+                <a href="#">Suraj</a>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>
